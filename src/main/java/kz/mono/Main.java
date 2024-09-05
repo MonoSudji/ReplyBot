@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String token = "6338559400:AAH4CRBOdFCboJmXxosF_An6-Ss91VlU9Cs";
+        String token = "";
 
         List<Long> moderatorIds = JsonUtils.readModeratorIdsFromJson("src/main/resources/moderators.json");
 
