@@ -7,7 +7,7 @@ import kz.mono.service.IMessageRouter;
 import java.util.List;
 
 public class MessageRouter implements IMessageRouter {
-    private final TelegramBot bot;
+    final TelegramBot bot;
     private final List<Long> moderatorIds;
 
     public MessageRouter(TelegramBot bot, List<Long> moderatorIds) {
