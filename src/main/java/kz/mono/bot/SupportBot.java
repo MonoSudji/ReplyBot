@@ -11,11 +11,11 @@ import kz.mono.service.impl.ModeratorValidator;
 import java.util.List;
 
 public class SupportBot {
-    private final TelegramBot bot;
-    private final MessageService messageService;
-    private final MessageRouter messageRouter;
-    private final ModeratorValidator moderatorValidator;
-    private final MessageProcessor messageProcessor;
+     final TelegramBot bot;
+     final MessageService messageService;
+     final MessageRouter messageRouter;
+     final ModeratorValidator moderatorValidator;
+     final MessageProcessor messageProcessor;
 
     public SupportBot(String token, List<Long> moderatorIds) {
         this.bot = new TelegramBot(token);
