@@ -6,10 +6,10 @@ import kz.mono.service.IMessageProcessor;
 import kz.mono.service.IModeratorValidator;
 
 public class MessageProcessor implements IMessageProcessor {
-    private final MessageService messageService;
-    private final MessageRouter messageRouter;
-    private final IModeratorValidator moderatorValidator;
-    private final TelegramBot bot;
+     final MessageService messageService;
+     final MessageRouter messageRouter;
+     final IModeratorValidator moderatorValidator;
+     final TelegramBot bot;
 
     public MessageProcessor(MessageService messageService, MessageRouter messageRouter, IModeratorValidator moderatorValidator, TelegramBot bot) {
         this.messageService = messageService;
